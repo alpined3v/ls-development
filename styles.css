@@ -1,0 +1,140 @@
+body {
+  background-color: #ffffff;
+  color: #1b1f3b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #1b1f3b !important;
+  height: 80px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #aad4ff !important;
+}
+
+.logo {
+  height: 90px;
+  width: auto;
+  display: block;
+}
+
+/* Hero Section */
+.container h1 {
+  color: #1b1f3b;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #1b1f3b;
+  border-color: #1b1f3b;
+}
+
+.btn-primary:hover {
+  background-color: #14203d;
+  border-color: #14203d;
+}
+
+footer {
+  background-color: #1b1f3b;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar-brand small {
+  text-decoration: none !important;
+}
+
+.image-corner-border {
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+  width: 300px; /* adjust as needed */
+  overflow: hidden;
+  line-height: 0; /* removes image gap below */
+}
+
+.cornered-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Corner accents */
+.corner {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #1b1f3b;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+
+.section-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+}
+

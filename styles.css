@@ -4,9 +4,9 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar {
+ .navbar {
   background-color: #1b1f3b !important;
-  height: 80px;
+  min-height: 80px;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }

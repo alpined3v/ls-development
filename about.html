@@ -19,33 +19,42 @@
 </head>
 
 <body>
-  <!-- nav bar -->
-  <nav class="navbar" style="color:#bab8aa">
-  <div class="container-fluid d-flex justify-content-between align-items-center">
-    <!-- group logo + small text together inside a div -->
-    <div class="d-flex flex-column align-items-start">
+  <!-- Responsive Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#" style="text-decoration: none;">
         <img src="images/ls-development-final.png" alt="ls development logo" class="logo mb-1" />
       </a>
-    </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- nav links -->
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link text-white" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="properties.html">Properties</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="services.html">Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="about.html">About Us</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="properties.html">Properties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <div class="logo-container fade-in" style="text-align:center;">
   <img src="images/ls-development-final-black.png" alt="logo" style="width: 150px; height: auto;" />
@@ -69,6 +78,6 @@
 </body>
 </html>
 
-
+<!--TODO: fix navbar - add logo to navbar -->
 
 

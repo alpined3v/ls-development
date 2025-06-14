@@ -1,10 +1,11 @@
 body {
   background-color: #ffffff;
   color: #1b1f3b;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'segoe ui', tahoma, geneva, verdana, sans-serif;
 }
 
  .navbar {
+  background: linear-gradient(to bottom, #1b1f3b 80%, #0f6ba3 20%) !important;
   background-color: #1b1f3b !important;
   min-height: 80px;
   padding-top: 0.25rem;
@@ -29,7 +30,7 @@ body {
   display: block;
 }
 
-/* Hero Section */
+/* hero section */
 .container h1 {
   color: #1b1f3b;
   font-size: 2.5rem;
@@ -61,14 +62,14 @@ footer {
 
 .fade-in {
   opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease-out forwards;
+  transform: translatey(20px);
+  animation: fadeinup 1s ease-out forwards;
 }
 
-@keyframes fadeInUp {
+@keyframes fadeinup {
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translatey(0);
   }
 }
 
@@ -86,13 +87,13 @@ footer {
 }
 
 .cornered-image {
-  display: block;
+  display: inline-block;
   width: 100%;
   height: auto;
   border-radius: 4px;
 }
 
-/* Corner accents */
+/* corner accents */
 .corner {
   position: absolute;
   width: 15px;
@@ -171,22 +172,44 @@ footer {
 }
 
 .contact-button {
-  position: fixed;
+  position: sticky;
   bottom: 30px;
-  right: 30px;
-  background-color: #007bff; /* Bootstrap primary blue */
+  left: 820px;
+  display: inline-flex !important;
+  align-items: right;
+  justify-content: right;
+  padding: 0.5rem 1rem;
+  background-color: #0d6efd;
   color: white;
-  padding: 12px 20px;
-  border-radius: 50px;
+  border-radius: 0.500rem;
   text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: background-color 0.3s ease;
+  width: auto !important;
+  max-width: 200px;  /* prevent overly wide button */
+  white-space: nowrap; /* prevent text wrap */
+  z-index: 1000;
 }
 
 .contact-button:hover {
-  background-color: #0056b3;
+  background-color: #084298;
+  color: white;
 }
+
+.logo-box {
+  padding: 8px; /* space inside the box */
+  border: 2px solid #ffffff; /* white border (or any color you want) */
+  border-radius: 8px; /* rounded corners */
+  display: inline-block; /* shrink to fit content */
+  background-color: rgba(255, 255, 255, 0.1); /* subtle translucent background */
+  transition: background-color 0.3s ease;
+}
+
+.logo-box:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* highlight on hover */
+  border-color: #aad4ff; /* subtle color change on hover */
+}
+
 
 

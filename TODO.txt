@@ -1,0 +1,9 @@
+-->TODO<--
+
+:Formspree account + implementation -- fill out info in contact.html
+:Create + attach Zillow listings 
+:Link site to kitchen trends
+:Finish proper contact links -- fix facebook / new account 
+:Polish services page -- done
+:Graphic for navbar?
+:Confirm footer copyright etc 

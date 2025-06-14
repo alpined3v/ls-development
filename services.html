@@ -3,16 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Bootstrap CSS -->
   <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-  crossorigin="anonymous"
-/>
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+    crossorigin="anonymous"
+  />
+
+  <!-- Bootstrap Icons -->
   <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-/>
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+  />
+
+  <!-- Animate.css -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
   <link rel="stylesheet" href="styles.css" />
   <title>Services</title>
@@ -22,8 +32,8 @@
   <!-- Responsive Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" style="text-decoration: none;">
-        <img src="images/ls-development-final.png" alt="ls development logo" class="logo mb-1" />
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <img src="images/ls-development-final.png" alt="ls development logo" style="height: 75px;" />
       </a>
       <button
         class="navbar-toggler"
@@ -55,52 +65,77 @@
       </div>
     </div>
   </nav>
-<div class="logo-container text-center fade-in">
-  <h3><b><i>Our Services</i></b></h3>
-</div>
-<div class="section-container text-center fade-in">
-  <h4>Construction</h4>
-      <small>Whether you're building your dream home or adding to your current property, we specialize in 
-      construction tailored to your vision. From the floorplan to the final nail, we deliver expert 
-        craftsmanship, clear communication, and great results.
-      </small>
-  <hr class="section-divider">
-  <h4>Kitchen Remodels</h4>
-      <small>The kitchen is the heart of the home, and we’re here to make it both beautiful and functional. 
-        Whether you're dreaming of a modern upgrade or a cozy, classic redesign, our kitchen remodeling 
-        services are tailored to fit your style and needs. From custom cabinetry and countertops to lighting, 
-        flooring, and layout changes, we handle every detail with precision. Let us transform your kitchen into 
-        a space you’ll love to cook, gather, and live in.</small>
-  <hr class="section-divider">
-  <h4>Home renovation</h4>
-      <small>Your home should grow and change with you. Our renovation services are designed to refresh, update, and
-        reimagine your space—bringing new life to the rooms you use every day. Whether it's modernizing outdated 
-        interiors, improving functionality, or enhancing comfort, we work closely with you to create a home that 
-        fits your lifestyle. With expert craftsmanship and attention to detail, we turn your vision into a seamless reality.</small>
+
+  <!-- Logo Centered -->
+  <div class="logo-container fade-in text-center my-4">
+    <img src="images/ls-development-final-black.png" alt="logo" style="width: 150px; height: auto;" />
+  </div>
+
+  <!-- Services Header -->
+  <div class="section-container text-center fade-in">
+    <h1 class="fw-bold">Our Services</h1>
+    <p><i>We specialize in high-quality renovations, property development, and design solutions tailored to your needs.</i></p>
+  </div>
+
+  <!-- Service Cards -->
+  <div class="container my-5 fade-in">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 shadow-sm animate__animated animate__fadeInUp bg-light text-gray">
+          <div class="card-body text-center">
+            <i class="bi bi-hammer display-4 text-primary mb-3"></i>
+            <h5 class="card-title"><b>Renovations</b></h5>
+            <p class="card-text"><i>Complete kitchen and bathroom makeovers, flooring, painting, and more.</i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm animate__animated animate__fadeInUp bg-light text-gray">
+          <div class="card-body text-center">
+            <i class="bi bi-bricks display-4 text-danger mb-3"></i>
+            <h5 class="card-title"><b>New Builds</b></h5>
+            <p class="card-text"><i>Custom-built homes designed with both function and elegance in mind.</i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm animate__animated animate__fadeInUp bg-light text-gray">
+          <div class="card-body text-center">
+            <i class="bi bi-lightbulb display-4 text-warning mb-3"></i>
+            <h5 class="card-title"><b>Cabinetry & Countertops</b></h5>
+            <p class="card-text"><i>Update your existing space with high quality materials and expert craftsmanship.</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 <div class="container my-5 text-center fade-in">
-<h4>Other Services</h4>
+<h4><b>Other Services</b></h4>
   <div class="list-container mx-auto text-start">
   <ul>
-    <li>Outdoor showers</li>
-    <li>Extentions</li>
-    <li>Countertops</li>
-    <li>Cabinets</li>
-    <li>Flooring</li>
+    <li>Outdoor showers ✓</li>
+    <li>Extentions ✓</li>
+    <li>Countertops ✓</li>
+    <li>Cabinets ✓</li>
+    <li>Flooring ✓</li>
   </ul>
   </div>
-</div> 
-<footer class="bg-dark text-white text-center py-3 mt-5">
-  © 2025 kitchen trends llc | ls development. all rights reserved.
-  </footer>
-<a href="contact.html" class="contact-button">
-  <i class="bi bi-envelope-fill me-2"></i> Contact Us
-</a>
+</div>
+  <!-- Call to Action -->
+  <div class="text-center my-4">
+    <a href="contact.html" class="btn btn-lg btn-primary">
+      <i class="bi bi-envelope-fill me-2"></i> Get a Free Quote
+    </a>
+  </div>
 
-  <!-- bootstrap js bundle -->
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    © 2025 Kitchen Trends LLC | LS Development. All Rights Reserved.
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
 
 
